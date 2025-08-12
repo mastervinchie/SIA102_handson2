@@ -55,7 +55,7 @@ app.get(`/user`, (req, res) => {
 }});
 
 
-app.get(`/`, (req, res) => {
+app.get(`/users`, (req, res) => {
     res.status(200).json(users);
 });
 
